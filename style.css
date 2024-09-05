@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif, Poppins;
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px 50px 20px 0;
+    background-color: #000;
+    border-bottom: 1px solid #403c3c;
+    border-style: dashed;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;  
+}
+nav a:hover, .active{
+    cursor: pointer;
+    color: #3f96cd;
+    transition: 0.3s ease;
+}
+.logo{
+    margin-right: 50em;
+    padding-right: 40em;
+    font-weight: bolder;
+    overflow: none;
+}
+.logo a{
+    font-size: 30px;
+}
+@media (max-width: 400px){
+    .nav nav{
+        width: 100%;
+        margin-right: 0em;
+        padding: 0px;
+    }
+    .nav ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+@media (max-width: 450px){
+    .nav nav{
+        width: 100%;
+        margin-right: 0em;
+        padding: 0px;
+    }
+    .nav  ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+@media (max-width: 475px){
+    .nav  nav{
+        width: 100%;
+        margin-right: 0em;
+        padding: 0px;
+    }
+    .nav  ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+
+@media (max-width: 600px){
+    .nav  nav{
+        width: 100%;
+        margin-right: 0em;
+        padding: 0px;
+    }
+    .nav  ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+
+@media (max-width: 900px){
+    section.hero{
+        height: 70vh;
+        padding-top: 28%;
+    }
+    .nav  nav{
+        width: 100%;
+        margin-right: 0em;
+        padding: 0px;
+    }
+    .nav  ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+@media (max-width: 1200px){
+    .nav  nav{
+        width: 100%;
+        margin-right: 0em;
+        padding: 0px;
+    }
+    .nav  ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+@media (max-width: 1700px){
+    .nav  nav{
+        margin-right: 0em;
+        width: 100%;
+        padding: 0px;
+    }
+    .hero ul{
+        padding: 20px 10px 20px 0;
+    }
+    .logo{
+        margin-right: 4em;
+        padding-right: 0em;
+    }
+}
+.hero{
+    height: 60vh;
+    padding-top: 18%;
+    background-color: #000;
+}
+.hero div{
+    color: #fff;
+    margin-left: 100px;
+}
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #3f96cd;
+}
+.hero p{
+    color: rgb(204, 255, 0);
+    font-style: italic;
+    font-size: 15px;
+}
+.hero button{
+    padding:  12px;
+    margin: 10px 20px 0px 0px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: #3fcd99;
+}
+.hero button:hover{
+    background-color: #3f96cd;
+    color: #fff;
+}
+.section-1 div{
+    display: block;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    padding: 40px ;
+    background-image: url(img/htm.jpg);
+    color: #fff;
+}
+p{
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.section-1 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
