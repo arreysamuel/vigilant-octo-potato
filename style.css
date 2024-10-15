@@ -425,6 +425,9 @@ footer a:hover,a.active{
     .sidebar a{
         font-size: 13px;
     }
+     .features-container .s-products{
+        margin-left: 8rem;
+    }
     .pontiac-firebird{
         display: block;
         justify-content: center;
