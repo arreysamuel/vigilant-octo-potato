@@ -424,11 +424,10 @@ footer a:hover,a.active{
         font-size: 20px;
     }
     #features-container{
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
     #s-products{
         width: 100px;
-        margin: 1rem;
     }
     #s-products .img{
         width: 100px;
