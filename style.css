@@ -417,10 +417,10 @@ footer a:hover,a.active{
         font-size: 20px;
         padding: 20px;
     }
-    .slogan{
+    #slogan{
         margin: 40em 0 0 2em;
     }
-    .slogan h1{
+    #slogan h1{
         font-size: 30px;
     }
     #features-container{
